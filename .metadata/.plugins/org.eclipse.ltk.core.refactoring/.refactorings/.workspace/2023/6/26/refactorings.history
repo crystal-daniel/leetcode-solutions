@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;valid perfect square (leetocde 367)&apos; to &apos;valid perfect square (leetcode 367)&apos;&#x0D;&#x0A;- Original element: &apos;valid perfect square (leetocde 367)&apos;&#x0D;&#x0A;- Renamed element: &apos;valid perfect square (leetocde 367)&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;valid perfect square (leetocde 367)&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=valid perfect square \(leetocde 367)" name="valid perfect square (leetcode 367)" references="true" stamp="1687677575776" version="1.0"/>
+</session>
