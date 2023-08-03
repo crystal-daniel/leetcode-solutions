@@ -13,6 +13,6 @@ class Solution {
     }
     public static void main(String args[])
     {
-    	System.out.println(divide(-8,2));
+    	System.out.println(divide(-12,2));
     }
 }
