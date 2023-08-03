@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 class Solution {
     public static void mergesort(int [] a,int low, int high)
     {
@@ -57,7 +55,6 @@ class Solution {
     }
     public static int majorityElement(int[] nums) {
         mergesort(nums,0,nums.length-1);
-        System.out.println(Arrays.toString(nums));
         int c=1;
         int n=nums[0];
         int i;
@@ -69,8 +66,6 @@ class Solution {
             }
             else
             {
-            	System.out.println("I am in else block");
-            	System.out.println(c+" "+(nums.length/2));
                 if(c>(nums.length/2))
                     return n;
                 else
