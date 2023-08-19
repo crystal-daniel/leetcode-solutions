@@ -1,5 +1,5 @@
 
-public class Main {
+public class Solution {
 	static int calculate(int n,int k)
     {
         if(n==1)
