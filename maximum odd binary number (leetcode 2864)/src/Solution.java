@@ -27,6 +27,7 @@ public class Solution {
     }
 	public static void main(String args[])
 	{
-		System.out.println(maximumOddBinaryNumber("0101"));
+		System.out.println(maximumOddBinaryNumber("0101"
+				));
 	}
 }
