@@ -10,14 +10,14 @@ public class Solution {
 //				{
 //					i = str.indexOf("ab");
 //					str = str.delete(i, i+2);
-//                    s = str.toString();
+//                  s = str.toString();
 //					score = score + x;
 //				}
 //				while(s.contains("ba"))
 //				{
 //					i = str.indexOf("ba");
 //					str = str.delete(i, i+2);
-//                    s = str.toString();
+//                  s = str.toString();
 //					score = score + y;
 //				}
 //		}
@@ -27,14 +27,14 @@ public class Solution {
 //				{
 //					i = str.indexOf("ba");
 //					str = str.delete(i, i+2);
-//                    s = str.toString();
+//                  s = str.toString();
 //					score = score + y;
 //				}
 //				while(s.contains("ab"))
 //				{
 //					i = str.indexOf("ab");
 //					str = str.delete(i, i+2);
-//                    s = str.toString();
+//                  s = str.toString();
 //					score = score + x;
 //				}
 //		}
