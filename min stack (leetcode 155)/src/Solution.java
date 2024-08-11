@@ -9,7 +9,6 @@ public class Solution {
             minStack.push(val);
         }
     }
-    
     public void pop() {
         int val = stack.pop();
         if(minStack.peek().equals(val))
@@ -17,11 +16,9 @@ public class Solution {
             minStack.pop();
         }
     }
-    
     public int top() {
         return stack.peek();
     }
-    
     public int getMin() {
         return minStack.peek();
     }
