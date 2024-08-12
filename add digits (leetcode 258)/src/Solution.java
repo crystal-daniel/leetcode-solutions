@@ -1,4 +1,3 @@
-
 public class Solution {
 	public static int addDigits(int num) {
         if(num/10==0)
