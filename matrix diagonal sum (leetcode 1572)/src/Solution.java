@@ -1,4 +1,3 @@
-
 public class Solution {
 	public static int diagonalSum(int[][] mat) {
         int[][] temp=mat;
