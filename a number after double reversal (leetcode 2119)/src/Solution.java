@@ -1,4 +1,3 @@
-
 public class Solution {
 	public static boolean isSameAfterReversals(int num) {
         int rev1 = reverse(num);
