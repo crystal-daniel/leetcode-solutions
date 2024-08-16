@@ -1,5 +1,4 @@
 import java.util.Arrays;
-
 public class Solution {
 	public static int[] countBits(int n) {
         int [] res = new int[n+1];
