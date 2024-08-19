@@ -1,4 +1,3 @@
-
 public class Solution {
 	public static char findTheDifference(String s, String t) {
         int s1=0;
