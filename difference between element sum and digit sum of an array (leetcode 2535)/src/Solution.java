@@ -1,4 +1,3 @@
-
 public class Solution {
 	public static int differenceOfSum(int[] nums) {
         int elementSum = 0;
