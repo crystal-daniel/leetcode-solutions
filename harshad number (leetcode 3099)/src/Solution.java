@@ -1,4 +1,3 @@
-
 public class Solution {
 	public static int sumOfTheDigitsOfHarshadNumber(int x) {
         int sum = 0, temp = x;
