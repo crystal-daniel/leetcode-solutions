@@ -1,4 +1,3 @@
-
 public class Solution {
 	public static boolean canAliceWin(int[] nums) {
         int singleSum = 0;
