@@ -1,6 +1,5 @@
 import java.util.Arrays;
 import java.util.*;
-
 public class Solution {
 //	public static int[] createTargetArray(int[] nums, int[] index) {
 //        int [] target = new int[nums.length];
