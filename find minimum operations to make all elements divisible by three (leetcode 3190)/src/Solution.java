@@ -1,4 +1,3 @@
-
 public class Solution {
 	public static int minimumOperations(int[] nums) {
         int count = 0;
