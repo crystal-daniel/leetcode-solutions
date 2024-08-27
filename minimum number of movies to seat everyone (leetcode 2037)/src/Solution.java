@@ -1,5 +1,4 @@
 import java.util.Arrays;
-
 public class Solution {
 	public static int minMovesToSeat(int[] seats, int[] students) {
         Arrays.sort(seats);
