@@ -1,5 +1,4 @@
 import java.util.Arrays;
-
 public class Solution {
 	public static int[][] flipAndInvertImage(int[][] image) {
         for(int i=0;i<image.length;i++)
