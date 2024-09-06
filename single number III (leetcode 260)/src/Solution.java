@@ -1,5 +1,4 @@
 import java.util.Arrays;
-
 public class Solution {
 	public static int[] singleNumber(int[] nums) {
         int c=0;
