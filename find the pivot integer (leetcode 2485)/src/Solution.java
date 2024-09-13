@@ -1,4 +1,3 @@
-
 public class Solution {
 	public static int pivotInteger(int n) {
         int totalSum = n*(n+1)/2;
