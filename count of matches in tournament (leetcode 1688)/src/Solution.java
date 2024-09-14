@@ -1,4 +1,3 @@
-
 public class Solution {
 	public static int numberOfMatches(int n) {
         int totalMatches = 0;
