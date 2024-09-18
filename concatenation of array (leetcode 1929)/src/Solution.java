@@ -1,5 +1,4 @@
 import java.util.Arrays;
-
 public class Solution {
 	public static int[] getConcatenation(int[] nums) {
         int l = nums.length;
