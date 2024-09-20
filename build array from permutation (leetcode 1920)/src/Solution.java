@@ -1,5 +1,4 @@
 import java.util.Arrays;
-
 public class Solution {
 	public static int[] buildArray(int[] nums) {
         int [] ans = new int[nums.length];
