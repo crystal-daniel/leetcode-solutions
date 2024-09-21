@@ -1,4 +1,3 @@
-
 public class Solution {
 	public static int oddCells(int m, int n, int[][] indices) {
         int [][] ans = new int[m][n];
