@@ -1,4 +1,3 @@
-
 public class Solution {
 	public static int findDelayedArrivalTime(int arrivalTime, int delayedTime) {
         arrivalTime = arrivalTime + delayedTime;
