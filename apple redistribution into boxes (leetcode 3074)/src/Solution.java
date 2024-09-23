@@ -1,5 +1,4 @@
 import java.util.Arrays;
-
 public class Solution {
 	public static int minimumBoxes(int[] apple, int[] capacity) {
         Arrays.sort(capacity);
