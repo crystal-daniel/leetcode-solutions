@@ -1,4 +1,3 @@
-
 public class Solution {
 	public static int countKDifference(int[] nums, int k) {
         int count = 0;
