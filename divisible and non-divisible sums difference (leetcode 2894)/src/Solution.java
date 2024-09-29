@@ -1,4 +1,3 @@
-
 public class Solution {
 	public static int differenceOfSums(int n, int m) {
         int num1 = 0, num2 = 0;
