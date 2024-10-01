@@ -1,5 +1,4 @@
 import java.util.*;
-
 public class Solution {
 	public static List<Integer> targetIndices(int[] nums, int target) {
         Arrays.sort(nums);
