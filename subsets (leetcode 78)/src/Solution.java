@@ -8,10 +8,10 @@ public class Solution {
             answer.add(new ArrayList<>(res));
             return;
         }
+        subsequence(index+1, res, nums);
         res.add(nums[index]);
         subsequence(index+1, res, nums);
         res.remove(res.size()-1);
-        subsequence(index+1, res, nums);
     }
     public List<List<Integer>> subsets(int[] nums) {
         List<Integer> res = new ArrayList<>();
