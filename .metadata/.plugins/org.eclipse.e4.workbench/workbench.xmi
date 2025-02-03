@@ -110,7 +110,7 @@
             <children xsi:type="basic:PartSashContainer" xmi:id="_kc9TjRMnEe6dGOKZWxoQRA" containerData="7500" selectedElement="__TV8gC8eEe-1m5XLqT835w" horizontal="true">
               <children xsi:type="basic:PartSashContainer" xmi:id="__TV8gC8eEe-1m5XLqT835w" containerData="5000" selectedElement="_p2Wu8UvvEe6su5PocZNbrA">
                 <children xsi:type="advanced:Placeholder" xmi:id="_kc9TjhMnEe6dGOKZWxoQRA" elementId="org.eclipse.ui.editorss" containerData="5673" ref="_kcsNwBMnEe6dGOKZWxoQRA"/>
-                <children xsi:type="basic:PartStack" xmi:id="_p2Wu8UvvEe6su5PocZNbrA" elementId="PartStack@35e6861" containerData="4327" selectedElement="_kc9TmhMnEe6dGOKZWxoQRA">
+                <children xsi:type="basic:PartStack" xmi:id="_p2Wu8UvvEe6su5PocZNbrA" elementId="PartStack@35e6861" containerData="4327" selectedElement="_kc9TnRMnEe6dGOKZWxoQRA">
                   <tags>active</tags>
                   <children xsi:type="advanced:Placeholder" xmi:id="_kc9TmhMnEe6dGOKZWxoQRA" elementId="org.eclipse.ui.console.ConsoleView" ref="_kc1-whMnEe6dGOKZWxoQRA" closeable="true">
                     <tags>View</tags>
@@ -248,7 +248,7 @@
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_WBUmsOIQEe-ZKPkNX5nYag" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Solution.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Solution.java&quot; partName=&quot;Solution.java&quot; title=&quot;Solution.java&quot; tooltip=&quot;number of subsequences that satisfy the given sum condition (leetcode 1498)/src/Solution.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/number of subsequences that satisfy the given sum condition (leetcode 1498)/src/Solution.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;42&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1484&quot; selectionTopPixel=&quot;600&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Solution.java&quot; partName=&quot;Solution.java&quot; title=&quot;Solution.java&quot; tooltip=&quot;number of subsequences that satisfy the given sum condition (leetcode 1498)/src/Solution.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/number of subsequences that satisfy the given sum condition (leetcode 1498)/src/Solution.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;2144&quot; selectionTopPixel=&quot;1120&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
@@ -327,8 +327,6 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
-      <tags>active</tags>
-      <tags>activeOnClose</tags>
       <menus xmi:id="_0yvkQBMpEe6dGOKZWxoQRA" elementId="org.eclipse.ui.console.ConsoleView">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -383,6 +381,8 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view>&#xD;&#xA;&lt;terminalConnections id=&quot;org.eclipse.tm.terminal.view.ui.TerminalsView&quot;>&#xD;&#xA;&lt;connection delegateId=&quot;org.eclipse.tm.terminal.connector.local.launcher.local&quot; encoding=&quot;UTF-8&quot; process.working_dir=&quot;C:\Users\Ranjith\Documents\Java Programs\leetcode\how many numbers are smaller than the current number (leetcode 1365)\src&quot; terminal.forceNew=&quot;true&quot;/>&#xD;&#xA;&lt;/terminalConnections>&#xD;&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:Terminal</tags>
+      <tags>active</tags>
+      <tags>activeOnClose</tags>
       <menus xmi:id="_lpjKUEzXEe-nb4U8DB0QnA" elementId="org.eclipse.tm.terminal.view.ui.TerminalsView">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -442,7 +442,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_kWgtQBMnEe6dGOKZWxoQRA" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_dvJK0OIMEe-ZKPkNX5nYag" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_j9S8AxMnEe6dGOKZWxoQRA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_ibMlEOIeEe-LRaya00Vklw" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_j9S8AxMnEe6dGOKZWxoQRA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_kWgtQRMnEe6dGOKZWxoQRA" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -473,7 +473,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_kWhUUBMnEe6dGOKZWxoQRA" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_dvODUOIMEe-ZKPkNX5nYag" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" enabled="false" type="Check" command="_j9RuCBMnEe6dGOKZWxoQRA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_ibVH8OIeEe-LRaya00Vklw" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" enabled="false" type="Check" command="_j9RuCBMnEe6dGOKZWxoQRA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_kWhUURMnEe6dGOKZWxoQRA" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -2374,7 +2374,7 @@
   <addons xmi:id="_j8r4DRMnEe6dGOKZWxoQRA" elementId="MinMax Addon" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
   <addons xmi:id="_j8r4DhMnEe6dGOKZWxoQRA" elementId="org.eclipse.ui.workbench.addon.0" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
   <addons xmi:id="_j80a4BMnEe6dGOKZWxoQRA" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
-  <addons xmi:id="_dN7UIOIMEe-ZKPkNX5nYag" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
+  <addons xmi:id="_IYS0IKimEeS11vbz3f9ezw" elementId="org.eclipse.ui.ide.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
   <addons xmi:id="_dz0JgGOlEeSMMaPQU2nlzw" elementId="org.eclipse.ui.ide.application.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.ide.application/org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon"/>
   <categories xmi:id="_j9JyEBMnEe6dGOKZWxoQRA" elementId="org.eclipse.team.ui.category.team" name="Version control (Team)" description="Actions that apply when working with a version control system"/>
   <categories xmi:id="_j9KZIBMnEe6dGOKZWxoQRA" elementId="org.eclipse.ui.category.views" name="Views" description="Commands for opening views"/>

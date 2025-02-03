@@ -44,11 +44,29 @@ public class Solution {
         calculateSubseq2(0, nums, target, 0);
         return res2;
     }
+    int calculateSubseq3(int index, int [] nums, int target, int sum)
+    {
+        if(index>=nums.length)
+        {
+            if(sum==target)
+            {
+                return 1;
+            }
+            return 0;
+        }
+        int l = calculateSubseq3(index+1, nums, target, sum+nums[index]);
+        int r = calculateSubseq3(index+1, nums, target, sum-nums[index]);
+        return l+r;
+    }
+    public int numSubseq3(int[] nums, int target) {
+        return calculateSubseq3(0, nums, target, 0);
+    }
     public static void main(String[] args) {
         int[] nums = {1,2,3,4,5};
         int target = 5;
         Solution obj = new Solution();
         System.out.println("Using Data Structure: "+obj.numSubseq(nums, target));
         System.out.println("Without using Data Structure: "+obj.numSubseq2(nums, target));
+        System.out.println("Without using Data Structure 2: "+obj.numSubseq3(nums, target));
     }
 }
