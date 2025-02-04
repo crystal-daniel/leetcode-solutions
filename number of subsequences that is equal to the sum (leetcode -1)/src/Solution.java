@@ -18,7 +18,7 @@ public class Solution {
         res.add(nums[index]);
         calculateSubseq(index+1, nums, target, sum+nums[index], res);
         res.remove(res.size()-1);
-        calculateSubseq(index+1, nums, target, sum-nums[index], res);
+        calculateSubseq(index+1, nums, target, sum, res);
     }
     public int numSubseq(int[] nums, int target) {
         List<Integer> res = new ArrayList<>();
@@ -38,7 +38,7 @@ public class Solution {
             return;
         }
         calculateSubseq2(index+1, nums, target, sum+nums[index]);
-        calculateSubseq2(index+1, nums, target, sum-nums[index]);
+        calculateSubseq2(index+1, nums, target, sum);
     }
     public int numSubseq2(int[] nums, int target) {
         calculateSubseq2(0, nums, target, 0);
@@ -55,7 +55,7 @@ public class Solution {
             return 0;
         }
         int l = calculateSubseq3(index+1, nums, target, sum+nums[index]);
-        int r = calculateSubseq3(index+1, nums, target, sum-nums[index]);
+        int r = calculateSubseq3(index+1, nums, target, sum);
         return l+r;
     }
     public int numSubseq3(int[] nums, int target) {
