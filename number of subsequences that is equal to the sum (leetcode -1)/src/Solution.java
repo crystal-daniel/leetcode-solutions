@@ -5,24 +5,24 @@ public class Solution {
 	int res2 = 0;
 	
 	//using a data structure
-    void calculateSubseq(int index, int [] nums, int target, int sum, List<Integer> res)
+    void calculateSubseq(int index, int [] nums, int target, List<Integer> res)
     {
         if(index>=nums.length)
         {
-            if(sum==target)
+            if(target==0)
             {
                 answer.add(new ArrayList<>(res));
             }
             return;
         }
         res.add(nums[index]);
-        calculateSubseq(index+1, nums, target, sum+nums[index], res);
+        calculateSubseq(index+1, nums, target-nums[index], res);
         res.remove(res.size()-1);
-        calculateSubseq(index+1, nums, target, sum, res);
+        calculateSubseq(index+1, nums, target, res);
     }
     public int numSubseq(int[] nums, int target) {
         List<Integer> res = new ArrayList<>();
-        calculateSubseq(0, nums, target, 0, res);
+        calculateSubseq(0, nums, target, res);
         return answer.size();
     }
     

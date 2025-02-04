@@ -60,7 +60,6 @@ INDEX VERSION 1.132+C:\Users\Ranjith\Documents\Java Programs\leetcode\.metadata\
 51179510.index
 4092409180.index
 2667302962.index
-3471411859.index
 1729301065.index
 3907880323.index
 1693918029.index
